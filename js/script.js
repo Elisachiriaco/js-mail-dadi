@@ -1,4 +1,8 @@
-// Lista persone
+let userName = prompt('Come ti chiami?');
+let saluto = 'Ciao';
+document.getElementById('saluto').innerHTML = saluto + " " + userName + '!';
+
+// primo esercizio
 const emailList = ["elisa@gmail.it","google@yahoo.com","giulia@gmail.com","marco10@yahoo.it","alessiarossi@yahoo.it"];
 
 let invio = document.getElementById('invio');
