@@ -21,3 +21,18 @@ invio.addEventListener("click", function() {
     }
 })
 
+// secondo esercizio
+let gioca = document.getElementById('gioca');
+let dadi = document.getElementById('dadi');
+
+let utente = Math.floor(Math.random() * 6) + 1;
+let computer = Math.floor(Math.random() * 6) + 1;
+
+dadi.addEventListener("click", function(){
+if (utente > computer) {
+  gioca.innerHTML = 'Hai vinto!'
+} else {
+  gioca.innerHTML = 'Ha vinto il computer'
+  }
+});
+
